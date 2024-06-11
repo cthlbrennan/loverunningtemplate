@@ -166,6 +166,7 @@ main {
 
 #photos img {
     width: 100%;
+    line-height: 1em;
 
 }
 
@@ -275,6 +276,15 @@ main {
         align-self: flex-end;
     }
 
+    
+}
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
